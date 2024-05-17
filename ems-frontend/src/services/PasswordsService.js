@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const REST_API_BASE_URL = 'http://localhost:8080/pass';
+const REST_API_BASE_URL = 'https://pass-storage-back.onrender.com/pass';
 
 export const listPass = () => axios.get(REST_API_BASE_URL + "/all");
 

@@ -25,10 +25,10 @@ const ContactComponent = () => {
             </div>
             <div className='row text-center pt-3'>
                 <div className='col'>
-                    <a href="#" class="link-dark fs-3 col">GitHub</a>
+                    <a href="https://github.com/at0mchik" class="link-dark fs-3 col">GitHub</a>
                 </div>
                 <div className='col'>
-                    <a href="#" class="link-dark fs-3 col">Telegram</a>
+                    <a href="https://t.me/at0_0m" class="link-dark fs-3 col">Telegram</a>
                 </div>
             </div>
             <div className='row p-3'>

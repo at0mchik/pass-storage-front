@@ -33,7 +33,9 @@ body{
     display: none;
 }
 
-
+.pointer{
+  cursor: pointer;
+}
 
 .check-text input {
     display: none;
