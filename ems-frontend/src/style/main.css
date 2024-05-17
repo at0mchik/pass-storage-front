@@ -1,0 +1,66 @@
+body{
+    background-color: gray;
+}
+
+.footer{
+    margin-top: 2vw;
+    bottom: 0;
+    width: 100%;
+    height: 2vw;
+    background-color: rgb(33, 37, 41);
+    text-align: center;
+    color: white;
+    display: 'flex';
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.25vw;
+    font-size: 1vw;
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.nav-item{
+    margin-left: 2vw;
+}
+
+.button-col{
+    padding-top: 0.35vw;
+}
+
+.hideForm{
+    display: none;
+}
+
+
+
+.check-text input {
+    display: none;
+}
+.check-text input ~ span {
+  color: #333;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 2px;
+  font-weight: 200;
+}
+.check-text input ~ .checked {
+  display: none;
+}
+.check-text input:checked ~ .checked {
+  display: inline-block;
+}
+.check-text input:checked ~ .unchecked {
+  display: none;
+}
+.check-text input:disabled ~ span {
+  color: #999;
+  cursor: not-allowed;
+}
+.blackNwhite {
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
